@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8466176F1B87F77C00BFAC5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466176E1B87F77C00BFAC5E /* AppDelegate.swift */; };
+		846617711B87F77C00BFAC5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846617701B87F77C00BFAC5E /* ViewController.swift */; };
+		846617741B87F77C00BFAC5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846617721B87F77C00BFAC5E /* Main.storyboard */; };
+		846617761B87F77C00BFAC5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846617751B87F77C00BFAC5E /* Images.xcassets */; };
+		846617791B87F77C00BFAC5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846617771B87F77C00BFAC5E /* LaunchScreen.xib */; };
+		846617851B87F77C00BFAC5E /* PeladaTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846617841B87F77C00BFAC5E /* PeladaTimerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8466177F1B87F77C00BFAC5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846617611B87F77C00BFAC5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846617681B87F77C00BFAC5E;
+			remoteInfo = PeladaTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846617691B87F77C00BFAC5E /* PeladaTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeladaTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8466176D1B87F77C00BFAC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8466176E1B87F77C00BFAC5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		846617701B87F77C00BFAC5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		846617731B87F77C00BFAC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846617751B87F77C00BFAC5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		846617781B87F77C00BFAC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8466177E1B87F77C00BFAC5E /* PeladaTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeladaTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846617831B87F77C00BFAC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846617841B87F77C00BFAC5E /* PeladaTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeladaTimerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846617661B87F77C00BFAC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8466177B1B87F77C00BFAC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846617601B87F77C00BFAC5E = {
+			isa = PBXGroup;
+			children = (
+				8466176B1B87F77C00BFAC5E /* PeladaTimer */,
+				846617811B87F77C00BFAC5E /* PeladaTimerTests */,
+				8466176A1B87F77C00BFAC5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8466176A1B87F77C00BFAC5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846617691B87F77C00BFAC5E /* PeladaTimer.app */,
+				8466177E1B87F77C00BFAC5E /* PeladaTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8466176B1B87F77C00BFAC5E /* PeladaTimer */ = {
+			isa = PBXGroup;
+			children = (
+				8466176E1B87F77C00BFAC5E /* AppDelegate.swift */,
+				846617701B87F77C00BFAC5E /* ViewController.swift */,
+				846617721B87F77C00BFAC5E /* Main.storyboard */,
+				846617751B87F77C00BFAC5E /* Images.xcassets */,
+				846617771B87F77C00BFAC5E /* LaunchScreen.xib */,
+				8466176C1B87F77C00BFAC5E /* Supporting Files */,
+			);
+			path = PeladaTimer;
+			sourceTree = "<group>";
+		};
+		8466176C1B87F77C00BFAC5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8466176D1B87F77C00BFAC5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		846617811B87F77C00BFAC5E /* PeladaTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				846617841B87F77C00BFAC5E /* PeladaTimerTests.swift */,
+				846617821B87F77C00BFAC5E /* Supporting Files */,
+			);
+			path = PeladaTimerTests;
+			sourceTree = "<group>";
+		};
+		846617821B87F77C00BFAC5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				846617831B87F77C00BFAC5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846617681B87F77C00BFAC5E /* PeladaTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846617881B87F77C00BFAC5E /* Build configuration list for PBXNativeTarget "PeladaTimer" */;
+			buildPhases = (
+				846617651B87F77C00BFAC5E /* Sources */,
+				846617661B87F77C00BFAC5E /* Frameworks */,
+				846617671B87F77C00BFAC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeladaTimer;
+			productName = PeladaTimer;
+			productReference = 846617691B87F77C00BFAC5E /* PeladaTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8466177D1B87F77C00BFAC5E /* PeladaTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8466178B1B87F77C00BFAC5E /* Build configuration list for PBXNativeTarget "PeladaTimerTests" */;
+			buildPhases = (
+				8466177A1B87F77C00BFAC5E /* Sources */,
+				8466177B1B87F77C00BFAC5E /* Frameworks */,
+				8466177C1B87F77C00BFAC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846617801B87F77C00BFAC5E /* PBXTargetDependency */,
+			);
+			name = PeladaTimerTests;
+			productName = PeladaTimerTests;
+			productReference = 8466177E1B87F77C00BFAC5E /* PeladaTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846617611B87F77C00BFAC5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = fastman;
+				TargetAttributes = {
+					846617681B87F77C00BFAC5E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8466177D1B87F77C00BFAC5E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 846617681B87F77C00BFAC5E;
+					};
+				};
+			};
+			buildConfigurationList = 846617641B87F77C00BFAC5E /* Build configuration list for PBXProject "PeladaTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846617601B87F77C00BFAC5E;
+			productRefGroup = 8466176A1B87F77C00BFAC5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846617681B87F77C00BFAC5E /* PeladaTimer */,
+				8466177D1B87F77C00BFAC5E /* PeladaTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846617671B87F77C00BFAC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846617741B87F77C00BFAC5E /* Main.storyboard in Resources */,
+				846617791B87F77C00BFAC5E /* LaunchScreen.xib in Resources */,
+				846617761B87F77C00BFAC5E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8466177C1B87F77C00BFAC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846617651B87F77C00BFAC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846617711B87F77C00BFAC5E /* ViewController.swift in Sources */,
+				8466176F1B87F77C00BFAC5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8466177A1B87F77C00BFAC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846617851B87F77C00BFAC5E /* PeladaTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846617801B87F77C00BFAC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846617681B87F77C00BFAC5E /* PeladaTimer */;
+			targetProxy = 8466177F1B87F77C00BFAC5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846617721B87F77C00BFAC5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846617731B87F77C00BFAC5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846617771B87F77C00BFAC5E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846617781B87F77C00BFAC5E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846617861B87F77C00BFAC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846617871B87F77C00BFAC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846617891B87F77C00BFAC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PeladaTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8466178A1B87F77C00BFAC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PeladaTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8466178C1B87F77C00BFAC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PeladaTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeladaTimer.app/PeladaTimer";
+			};
+			name = Debug;
+		};
+		8466178D1B87F77C00BFAC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PeladaTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeladaTimer.app/PeladaTimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846617641B87F77C00BFAC5E /* Build configuration list for PBXProject "PeladaTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846617861B87F77C00BFAC5E /* Debug */,
+				846617871B87F77C00BFAC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846617881B87F77C00BFAC5E /* Build configuration list for PBXNativeTarget "PeladaTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846617891B87F77C00BFAC5E /* Debug */,
+				8466178A1B87F77C00BFAC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8466178B1B87F77C00BFAC5E /* Build configuration list for PBXNativeTarget "PeladaTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8466178C1B87F77C00BFAC5E /* Debug */,
+				8466178D1B87F77C00BFAC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846617611B87F77C00BFAC5E /* Project object */;
+}
