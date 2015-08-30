@@ -13,6 +13,15 @@
 		846617761B87F77C00BFAC5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846617751B87F77C00BFAC5E /* Images.xcassets */; };
 		846617791B87F77C00BFAC5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846617771B87F77C00BFAC5E /* LaunchScreen.xib */; };
 		846617851B87F77C00BFAC5E /* PeladaTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846617841B87F77C00BFAC5E /* PeladaTimerTests.swift */; };
+		846617911B895D7B00BFAC5E /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846617901B895D7B00BFAC5E /* ConfigViewController.swift */; };
+		846617931B89F39500BFAC5E /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846617921B89F39500BFAC5E /* ShareManager.swift */; };
+		8466179D1B8C09D800BFAC5E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466179C1B8C09D800BFAC5E /* InterfaceController.swift */; };
+		8466179F1B8C09D800BFAC5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8466179E1B8C09D800BFAC5E /* Images.xcassets */; };
+		846617A31B8C09D800BFAC5E /* PeladaTimer WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 846617A21B8C09D800BFAC5E /* PeladaTimer WatchKit App.app */; };
+		846617AB1B8C09D800BFAC5E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846617A91B8C09D800BFAC5E /* Interface.storyboard */; };
+		846617AD1B8C09D800BFAC5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846617AC1B8C09D800BFAC5E /* Images.xcassets */; };
+		846617B01B8C09D800BFAC5E /* PeladaTimer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 846617981B8C09D800BFAC5E /* PeladaTimer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		846617B91B92963900BFAC5E /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846617B81B92963900BFAC5E /* StopWatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +32,35 @@
 			remoteGlobalIDString = 846617681B87F77C00BFAC5E;
 			remoteInfo = PeladaTimer;
 		};
+		846617A41B8C09D800BFAC5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846617611B87F77C00BFAC5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846617A11B8C09D800BFAC5E;
+			remoteInfo = "PeladaTimer WatchKit App";
+		};
+		846617AE1B8C09D800BFAC5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846617611B87F77C00BFAC5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846617971B8C09D800BFAC5E;
+			remoteInfo = "PeladaTimer WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		846617B71B8C09D800BFAC5E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				846617B01B8C09D800BFAC5E /* PeladaTimer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		846617691B87F77C00BFAC5E /* PeladaTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeladaTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +73,17 @@
 		8466177E1B87F77C00BFAC5E /* PeladaTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeladaTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846617831B87F77C00BFAC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		846617841B87F77C00BFAC5E /* PeladaTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeladaTimerTests.swift; sourceTree = "<group>"; };
+		846617901B895D7B00BFAC5E /* ConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		846617921B89F39500BFAC5E /* ShareManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareManager.swift; sourceTree = "<group>"; };
+		846617981B8C09D800BFAC5E /* PeladaTimer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PeladaTimer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8466179B1B8C09D800BFAC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8466179C1B8C09D800BFAC5E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8466179E1B8C09D800BFAC5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		846617A21B8C09D800BFAC5E /* PeladaTimer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PeladaTimer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846617A81B8C09D800BFAC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846617AA1B8C09D800BFAC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		846617AC1B8C09D800BFAC5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		846617B81B92963900BFAC5E /* StopWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +101,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		846617951B8C09D800BFAC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +116,8 @@
 			children = (
 				8466176B1B87F77C00BFAC5E /* PeladaTimer */,
 				846617811B87F77C00BFAC5E /* PeladaTimerTests */,
+				846617991B8C09D800BFAC5E /* PeladaTimer WatchKit Extension */,
+				846617A61B8C09D800BFAC5E /* PeladaTimer WatchKit App */,
 				8466176A1B87F77C00BFAC5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +127,8 @@
 			children = (
 				846617691B87F77C00BFAC5E /* PeladaTimer.app */,
 				8466177E1B87F77C00BFAC5E /* PeladaTimerTests.xctest */,
+				846617981B8C09D800BFAC5E /* PeladaTimer WatchKit Extension.appex */,
+				846617A21B8C09D800BFAC5E /* PeladaTimer WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,7 +138,10 @@
 			children = (
 				8466176E1B87F77C00BFAC5E /* AppDelegate.swift */,
 				846617701B87F77C00BFAC5E /* ViewController.swift */,
+				846617B81B92963900BFAC5E /* StopWatch.swift */,
+				846617901B895D7B00BFAC5E /* ConfigViewController.swift */,
 				846617721B87F77C00BFAC5E /* Main.storyboard */,
+				846617921B89F39500BFAC5E /* ShareManager.swift */,
 				846617751B87F77C00BFAC5E /* Images.xcassets */,
 				846617771B87F77C00BFAC5E /* LaunchScreen.xib */,
 				8466176C1B87F77C00BFAC5E /* Supporting Files */,
@@ -112,6 +174,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		846617991B8C09D800BFAC5E /* PeladaTimer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8466179C1B8C09D800BFAC5E /* InterfaceController.swift */,
+				8466179E1B8C09D800BFAC5E /* Images.xcassets */,
+				8466179A1B8C09D800BFAC5E /* Supporting Files */,
+			);
+			path = "PeladaTimer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		8466179A1B8C09D800BFAC5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8466179B1B8C09D800BFAC5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		846617A61B8C09D800BFAC5E /* PeladaTimer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				846617A91B8C09D800BFAC5E /* Interface.storyboard */,
+				846617AC1B8C09D800BFAC5E /* Images.xcassets */,
+				846617A71B8C09D800BFAC5E /* Supporting Files */,
+			);
+			path = "PeladaTimer WatchKit App";
+			sourceTree = "<group>";
+		};
+		846617A71B8C09D800BFAC5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				846617A81B8C09D800BFAC5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +220,12 @@
 				846617651B87F77C00BFAC5E /* Sources */,
 				846617661B87F77C00BFAC5E /* Frameworks */,
 				846617671B87F77C00BFAC5E /* Resources */,
+				846617B71B8C09D800BFAC5E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				846617AF1B8C09D800BFAC5E /* PBXTargetDependency */,
 			);
 			name = PeladaTimer;
 			productName = PeladaTimer;
@@ -150,6 +250,39 @@
 			productReference = 8466177E1B87F77C00BFAC5E /* PeladaTimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		846617971B8C09D800BFAC5E /* PeladaTimer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846617B41B8C09D800BFAC5E /* Build configuration list for PBXNativeTarget "PeladaTimer WatchKit Extension" */;
+			buildPhases = (
+				846617941B8C09D800BFAC5E /* Sources */,
+				846617951B8C09D800BFAC5E /* Frameworks */,
+				846617961B8C09D800BFAC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846617A51B8C09D800BFAC5E /* PBXTargetDependency */,
+			);
+			name = "PeladaTimer WatchKit Extension";
+			productName = "PeladaTimer WatchKit Extension";
+			productReference = 846617981B8C09D800BFAC5E /* PeladaTimer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		846617A11B8C09D800BFAC5E /* PeladaTimer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846617B11B8C09D800BFAC5E /* Build configuration list for PBXNativeTarget "PeladaTimer WatchKit App" */;
+			buildPhases = (
+				846617A01B8C09D800BFAC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PeladaTimer WatchKit App";
+			productName = "PeladaTimer WatchKit App";
+			productReference = 846617A21B8C09D800BFAC5E /* PeladaTimer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +294,22 @@
 				TargetAttributes = {
 					846617681B87F77C00BFAC5E = {
 						CreatedOnToolsVersion = 6.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					8466177D1B87F77C00BFAC5E = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 846617681B87F77C00BFAC5E;
+					};
+					846617971B8C09D800BFAC5E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					846617A11B8C09D800BFAC5E = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = C8VX4HHNAM;
 					};
 				};
 			};
@@ -183,6 +328,8 @@
 			targets = (
 				846617681B87F77C00BFAC5E /* PeladaTimer */,
 				8466177D1B87F77C00BFAC5E /* PeladaTimerTests */,
+				846617971B8C09D800BFAC5E /* PeladaTimer WatchKit Extension */,
+				846617A11B8C09D800BFAC5E /* PeladaTimer WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +352,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		846617961B8C09D800BFAC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8466179F1B8C09D800BFAC5E /* Images.xcassets in Resources */,
+				846617A31B8C09D800BFAC5E /* PeladaTimer WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846617A01B8C09D800BFAC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846617AB1B8C09D800BFAC5E /* Interface.storyboard in Resources */,
+				846617AD1B8C09D800BFAC5E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -214,6 +379,9 @@
 			files = (
 				846617711B87F77C00BFAC5E /* ViewController.swift in Sources */,
 				8466176F1B87F77C00BFAC5E /* AppDelegate.swift in Sources */,
+				846617B91B92963900BFAC5E /* StopWatch.swift in Sources */,
+				846617911B895D7B00BFAC5E /* ConfigViewController.swift in Sources */,
+				846617931B89F39500BFAC5E /* ShareManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +393,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		846617941B8C09D800BFAC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8466179D1B8C09D800BFAC5E /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +408,16 @@
 			isa = PBXTargetDependency;
 			target = 846617681B87F77C00BFAC5E /* PeladaTimer */;
 			targetProxy = 8466177F1B87F77C00BFAC5E /* PBXContainerItemProxy */;
+		};
+		846617A51B8C09D800BFAC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846617A11B8C09D800BFAC5E /* PeladaTimer WatchKit App */;
+			targetProxy = 846617A41B8C09D800BFAC5E /* PBXContainerItemProxy */;
+		};
+		846617AF1B8C09D800BFAC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846617971B8C09D800BFAC5E /* PeladaTimer WatchKit Extension */;
+			targetProxy = 846617AE1B8C09D800BFAC5E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +436,14 @@
 				846617781B87F77C00BFAC5E /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		846617A91B8C09D800BFAC5E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846617AA1B8C09D800BFAC5E /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +584,68 @@
 			};
 			name = Release;
 		};
+		846617B21B8C09D800BFAC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = PeladaTimer_WatchKit_Extension;
+				INFOPLIST_FILE = "PeladaTimer WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		846617B31B8C09D800BFAC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = PeladaTimer_WatchKit_Extension;
+				INFOPLIST_FILE = "PeladaTimer WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		846617B51B8C09D800BFAC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PeladaTimer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		846617B61B8C09D800BFAC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PeladaTimer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +671,22 @@
 			buildConfigurations = (
 				8466178C1B87F77C00BFAC5E /* Debug */,
 				8466178D1B87F77C00BFAC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		846617B11B8C09D800BFAC5E /* Build configuration list for PBXNativeTarget "PeladaTimer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846617B21B8C09D800BFAC5E /* Debug */,
+				846617B31B8C09D800BFAC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		846617B41B8C09D800BFAC5E /* Build configuration list for PBXNativeTarget "PeladaTimer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846617B51B8C09D800BFAC5E /* Debug */,
+				846617B61B8C09D800BFAC5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
